@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-bg-container {
+    background-image: url('https://cdn.sologo.ai/2024/04/17/2404170403571329.jpg?x-oss-process=image/resize,m_lfit,w_1000,h_0');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.home-title {
+    color: #ce004e;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.home-caption {
+    color: black;
+    font-weight: 500;
+    font-family: "Roboto";
+    text-align: center;
+
+}
+
+.home-button {
+    color: white;
+    font-weight: 600;
+    background-color: #ce004e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-color: black;
+    border-width: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-button:hover {
+    background-color: #b3003b;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .home-button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-button {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-button {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}
+
+
+.home-title-fs {
+    font-size: 4rem;
+}
+
+.home-caption-fs {
+    font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+    .home-title-fs {
+        font-size: 5rem;
+    }
+
+    .home-caption-fs {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-title-fs {
+        font-size: 3rem;
+    }
+
+    .home-caption-fs {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-title-fs {
+        font-size: 2rem;
+    }
+
+    .home-caption-fs {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .home-title-fs {
+        font-size: 1.5rem;
+    }
+
+    .home-caption-fs {
+        font-size: 1rem;
+    }
+}
+
+
+.fashion-section {
+    background: linear-gradient(135deg, #2e2e2e 0%, #3a1c71 100%);
+}
+
+.beauty-section {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+
+}
+
+.homeandfurniture-section {
+    background: linear-gradient(180deg, #e8f0fe 0%, #c4d6e9 100%);
+}
+
+.foodandgrocery-section {
+    background: linear-gradient(135deg, #ffefba 0%, #ffffff 100%);
+}
+
+.travel-section {
+    background: linear-gradient(135deg, #d0e6f8, #a3c4e0);
+
+}
+
+.section-heading {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-container {
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.card-heading {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.image-styling {
+    border-radius: 16px;
+    width: 100%;
+}
+
+.card-para {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.item-link {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.am-bg {
+    background-color: #ce004e;
+    min-height: 70vh;
+}
+
+.am-name {
+    color: white;
+    font-weight: 500;
+    font-family: "bree Serif";
+    white-space: nowrap;
+}
+
+.am-designation {
+    color: black;
+    font-weight: bold;
+    font-family: "montserrat";
+}
+
+.am-details {
+    color: white;
+    font-weight: 500;
+    font-family: "montserrat";
+}
+
+.am-icon {
+    color: white;
+    padding-top: 2px;
+}
+
+
+.am-name-xs {
+    font-size: 25px;
+}
+
+.am-designation-xs {
+    font-size: 18px;
+}
+
+.am-details-xs {
+    font-size: 14px;
+}
+
+
+/*small*/
+@media (min-width: 576px) {
+    .am-name {
+        font-size: 35px;
+    }
+
+    .am-designation {
+        font-size: 25px;
+    }
+
+    .am-details {
+        font-size: 16px;
+    }
+
+    .am-icon {
+        font-size: 15px;
+    }
+}
+
+/*medium*/
+@media (min-width: 768px) {
+    .am-name {
+        font-size: 45px;
+    }
+
+    .am-designation {
+        font-size: 33px;
+    }
+
+    .am-details {
+        font-size: 23px;
+    }
+
+    .am-icon {
+        font-size: 22px;
+    }
+}
+
+/* large*/
+@media (min-width: 992px) {
+    .am-name {
+        font-size: 55px;
+    }
+
+    .am-designation {
+        font-size: 43px;
+    }
+
+    .am-details {
+        font-size: 30px;
+    }
+
+    .am-icon {
+        font-size: 29px;
+    }
+}
+
+/*extra large*/
+@media (min-width: 1200px) {
+    .am-name {
+        font-size: 60px;
+    }
+
+    .am-designation {
+        font-size: 50px;
+    }
+
+    .am-details {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .medium-margin {
+        margin-top: 190px;
+    }
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 200px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.custom-button {
+    font-weight: 500;
+    background-color: #d0b200;
+    margin-right: 10px;
+    font-family: "Roboto";
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.modal-title-heading {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bb-button {
+    color: #22223b;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navg-sec-bg {
+    background: linear-gradient(to right, #E0E0E0, #F5F5F5);
+    min-height: 100vh;
+
+}
+
+.symmetrical-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+}
+
+.section {
+    text-align: center;
+}
+
+.section img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .symmetrical-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .symmetrical-layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .symmetrical-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.am-bottomcard {
+    background-color: white;
+}
+
+.am-bottomcard-title {
+    color: #ce004e;
+    font-weight: 700;
+}
+
+.am-bottomcard-caption {
+    color: black;
+}
+
+.am-logo {
+    height: 140px;
+    width: 140px;
+}

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0f4c91140d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="sample.css">
+
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="color:black;">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" onclick="display('sectionhome')" style="color:#ce004e; font-family:Roboto;">Home</a>
+                        <a class="nav-link d-block d-sm-none" onclick="display('sectionaboutmexs')" style="color:#ce004e; font-family:Roboto;">About Me</a>
+                        <a class="nav-link d-none d-sm-block" onclick="display('sectionaboutme')" style="color:#ce004e; font-family:Roboto;">About Me</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="sectionhome">
+        <div class="home-bg-container">
+            <img src="https://i.postimg.cc/2STRSvpB/download.png" class="logo" />
+            <h1 class="text-uppercase home-title home-title-fs">multi cart</h1>
+            <h2 class="home-caption home-caption-fs">All Your Shopping Needs In One Cart</h2>
+            <button class="home-button" onclick="display('sectionnavigation')">Shop Now</button>
+        </div>
+    </div>
+
+    <div id="sectionnavigation">
+        <div class="navg-sec-bg" style="margin-top:60px;">
+            <div class="symmetrical-layout">
+                <div class="section">
+                    <img src="https://img.freepik.com/free-photo/joyful-european-lady-summer-hat-dancing-yellow-background-debonair-girl-long-skirt-laughing-while-posing-studio_197531-25996.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" alt="Fashion">
+                    <br>
+                    <button onclick="display('sectionone')" class="home-button">Fashion</button>
+                </div>
+                <div class="section">
+                    <img src="https://img.freepik.com/free-photo/beauty-skin-care-close-up-portrait-beautiful-woman-looking-mirror-touching-her-clear-g_1258-88095.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" alt="Beauty">
+                    <br>
+                    <button onclick="display('sectiontwo')" class="home-button">Beauty</button>
+                </div>
+                <div class="section">
+                    <img src="https://img.freepik.com/free-photo/comfortable-pillow-sofa_74190-10005.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" alt="Home & Furniture">
+                    <br>
+                    <button onclick="display('sectionthree')" class="home-button">Home & Furniture</button>
+                </div>
+                <div class="section">
+                    <img src="https://img.freepik.com/free-photo/real-food-pyramid-assortment-top-view_23-2150238927.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" alt="Food & Grocery">
+                    <br>
+                    <button onclick="display('sectionfour')" class="home-button"> Food & Grocery</button>
+                </div>
+                <div class="section">
+                    <img src="https://img.freepik.com/premium-photo/girl-sitting-edge-rock-taking-pleasure-landscape-machu-picchu_143092-1714.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" alt="Travel">
+                    <br>
+                    <button onclick="display('sectionfive')" class="home-button">Travel</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="sectionaboutme">
+        <div class="d-none d-sm-block" style="margin-top:60px;">
+            <div class="am-bg">
+                <div class="pl-3 d-flex flex-row justify-content-start justify-content-md-between justify-content-lg-between justify-content-xl-between">
+                    <div>
+                        <div class="d-none d-lg-block">
+                            <h1 class="am-name text-uppercase ml-lg-4 mt-xl-5 mt-lg-5">Vaishnave Vepuri</h1>
+                        </div>
+                        <div class="d-none d-sm-block d-lg-none">
+                            <h1 class="am-name text-uppercase ml-sm-1" style="margin-top:155px;">Vaishnave Vepuri</h1>
+                        </div>
+                        <h2 class="am-designation ml-sm-3 ml-md-4 ml-lg-5">Creative Director</h2>
+                        <div class="d-flex mt-sm-4 ml-sm-3 ml-md-4 ml-lg-5 mt-md-5 mt-lg-5 ml-xl-5 pl-xl-2">
+                            <i class="fa-solid fa-phone am-icon am-details-xs"></i>
+                            <span class="am-details ml-3 am-details-xs">8106942251</span>
+                        </div>
+
+                        <div class="d-flex mt-2 ml-sm-3 ml-md-4 ml-lg-5 ml-xl-5 pl-xl-2">
+                            <i class="fa-solid fa-envelope am-icon"></i>
+                            <span class="am-details ml-3">vepuri.vaishnave@gmail.com</span>
+                        </div>
+                        <div class="d-flex mt-2 ml-sm-3 ml-md-4 ml-lg-5 ml-xl-5 pl-xl-2">
+                            <i class="fa-solid fa-location-dot am-icon"></i>
+                            <span class="am-details ml-3">Flat no.506, Sri Srinivasa Nivas, <br />New Maruthi Nagar, Chaitanyapuri, <br />Hyderabad, Telangana, 50060</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-start d-xs-none d-sm-block d-md-none" style="margin-top:130px;">
+                        <img src="https://i.postimg.cc/3xbzrqdX/imagenobg.png" style="height:68%" />
+                    </div>
+                    <div class="d-flex justify-content-start d-sm-none d-md-block d-lg-none" style="margin-top:130px;">
+                        <img src="https://i.postimg.cc/3xbzrqdX/imagenobg.png" style="height:90%" />
+                    </div>
+                    <div class="d-flex justify-content-end mr-5 mt-lg-2 d-lg-block d-none d-xl-none d-sm-none">
+                        <img src="https://i.postimg.cc/3xbzrqdX/imagenobg.png" style="height:100%" />
+                    </div>
+                    <div class="d-flex justify-content-end mr-5 pr-5 mt-xl-3 d-xl-block d-none d-sm-none d-lg-none">
+                        <img src="https://i.postimg.cc/3xbzrqdX/imagenobg.png" style="height:104%" />
+                    </div>
+                </div>
+            </div>
+            <div class="am-bottomcard mt-1 mb-1">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="https://i.postimg.cc/2STRSvpB/download.png" class="am-logo" />
+                    <div class="text-left">
+                        <h1 class="text-uppercase am-bottomcard-title mt-4">multi cart</h1>
+                        <h2 class="am-bottomcard-caption">All Your Shopping Needs In One Cart</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionaboutmexs">
+        <div class="d-block d-sm-none">
+            <div class="am-bg" style="margin-top:60px;">
+                <div class="pl-3 d-flex flex-column justify-content-center ml-xs-5">
+                    <div>
+                        <h1 class="am-name text-uppercase am-name-xs ml-xs-5" style="margin-top:130px;">Vaishnave Vepuri</h1>
+                        <h2 class="am-designation ml-2 am-designation-xs">Creative Director</h2>
+                        <div class="d-flex mt-4 ml-3">
+                            <i class="fa-solid fa-phone am-icon am-details-xs"></i>
+                            <span class="am-details ml-3 am-details-xs">8106942251</span>
+                        </div>
+
+                        <div class="d-flex mt-2 ml-3">
+                            <i class="fa-solid fa-envelope am-icon am-details-xs"></i>
+                            <span class="am-details ml-3 am-details-xs">vepuri.vaishnave@gmail.com</span>
+                        </div>
+                        <div class="d-flex mt-2 ml-3">
+                            <i class="fa-solid fa-location-dot am-icon am-details-xs"></i>
+                            <span class="am-details ml-3 am-details-xs">Flat no.506, Sri Srinivasa Nivas, <br />New Maruthi Nagar, Chaitanyapuri, <br />Hyderabad, Telangana, 50060</span>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-start">
+                        <img src="https://i.postimg.cc/3xbzrqdX/imagenobg.png" style="height:300px;" class="mb-3" />
+                    </div>
+                </div>
+            </div>
+            <div class="am-bottomcard mt-1 mb-1">
+                <div class="d-flex flex-row justify-content-start">
+                    <img src="https://i.postimg.cc/2STRSvpB/download.png" class="am-logo" style="height:100px; width:100px;" />
+                    <div>
+                        <h1 class="text-uppercase am-bottomcard-title mt-4" style="font-size:25px;">multi cart</h1>
+                        <h2 class="am-bottomcard-caption" style="font-size:19px;">All Your Shopping Needs In One Cart</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionone">
+        <div class="fashion-section pt-4 pb-4" style="margin-top:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading" style="color:white;">Discover Your Style: <br /> Explore the Best Fashion Websites!</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #f5d0c5 0%, #f8edeb 100%);">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://img.freepik.com/free-photo/happy-lady-stylish-skirt-boater-posing-pink-wall_197531-23653.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" class="d-block w-100 image-styling mb-2" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://img.freepik.com/free-photo/young-woman-with-shopping-bags-beautiful-dress_1303-17550.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" class="d-block w-100 image-styling mb-2" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://img.freepik.com/premium-photo/stylish-autumn-outfits-shine-as-young-couple-embraces-season-with-vibrant-colors_1326977-7025.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid&w=740" class="d-block w-100 image-styling mb-2" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="https://www.amazon.com" target="_blank" class="card-heading" style="color:#3e2723;">Amazon</a>
+                            <p class="card-para" style="color:#6d4c41;">Checkout Latest Collections and Offers on Top Clothing brands!</p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #f5d0c5 0%, #f8edeb 100%);">
+                            <img src="https://img.freepik.com/free-photo/two-young-beautiful-girls-shopping-mall_176420-84.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling mb-2" />
+                            <a href="https://www.flipkart.com" class="card-heading" style="color:#3e2723;">Flipkart</a>
+                            <p class="card-para" target="_blank" style="color:#6d4c41;">Fresh Fashion Picks & Limited-Time Discounts on various brands!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #f5d0c5 0%, #f8edeb 100%);">
+                            <img src="https://img.freepik.com/free-photo/portrait-smiling-beautiful-girl-her-handsome-boyfriend-laughing-happy-cheerful-couple-sunglasses_158538-5002.jpg?size=626&ext=jpg&ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling mb-2" />
+                            <a href="https://www.myntra.com" target="_blank" class="card-heading" style="color:#3e2723;">Myntra</a>
+                            <p class="card-para" style="color:#6d4c41;">Unlock Unbeatable Offers on the Newest Fashion Drops!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #f5d0c5 0%, #f8edeb 100%);">
+                            <img src="https://img.freepik.com/free-photo/jocund-woman-summer-skirt-posing-with-kissing-face-expression-indoor-portrait-relaxed-elegant-ginger-lady-enjoying-leisure-time-studio_197531-11083.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling mb-2" />
+                            <a href="https://www.meesho.com" target="_blank" class="card-heading" style="color:#3e2723;">Meesho</a>
+                            <p class="card-para" style="color:#6d4c41;">Grab the Latest Styles at Unmissable Prices!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #f5d0c5 0%, #f8edeb 100%);">
+                            <img src="https://img.freepik.com/free-photo/young-handsome-man-choosing-clothes-shop_1303-19722.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling mb-2" />
+                            <a href="https://www.ajio.com" target="_blank" class="card-heading" style="color:#3e2723;">Ajio</a>
+                            <p class="card-para" style="color:#6d4c41;">Stay Stylish with the Latest Collections and Special Discounts!</p>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-secondary" onclick="display('sectionnavigation')">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiontwo">
+        <div class="beauty-section pt-4 pb-4" style="margin-top:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading" style="color:#e91e63;">Beauty Essentials: <br />Where Self-Care Meets Style!</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+                            <img src="https://img.freepik.com/free-photo/make-up-artist-getting-model-ready-photoshootin_23-2149305147.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling" />
+                            <a class="card-heading" style="color:#3d3d3d;" href="https://www.nykaa.com" target="_blank">Nykaa</a>
+                            <p class="card-para" style="color:#e91e63;">Unveil the latest makeup trends and bestsellers from your favorite brands!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+                            <img src="https://images.unsplash.com/photo-1531646317777-0619c7c5d1d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29zbWV0aWNzfGVufDB8fDB8fHww" class="image-styling" />
+                            <a class="card-heading" style="color:#3d3d3d;" href="https://www.purplle.com" target="_blank">Purplle</a>
+                            <p class="card-para" style="color:#e91e63;">Discover amazing beauty deals and trending products at unbeatable prices!</p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+                            <img src="https://img.freepik.com/free-photo/young-beautiful-blonde-girl-cares-face-skin-with-moisturizer-front-mirror_496169-939.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling" />
+                            <a class="card-heading" style="color:#3d3d3d;" href="https://www.mamaearth.com" target="_blank">Mamaearth</a>
+                            <p class="card-para" style="color:#e91e63;">Find natural and toxin-free beauty products with incredible deals!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+                            <img src="https://images.unsplash.com/photo-1577058109956-67adf6edc586?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29zbWV0aWNzfGVufDB8fDB8fHww" class="image-styling" />
+                            <a class="card-heading" style="color:#3d3d3d;" href="https://www.myglamm.com" target="_blank">MyGlamm</a>
+                            <p class="card-para" style="color:#e91e63;">Shop the hottest makeup and skincare essentials with great discounts!</p>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-secondary" onclick="display('sectionnavigation')">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionthree">
+        <div class="homeandfurniture-section pt-4 pb-4" style="margin-top:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading" style="color:#4a4e69;">Living Well: <br />Transform Your Space with Elegant Home Decor!</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(135deg, #f5f3f5 0%, #c2c4d4 100%);">
+                            <img src="https://img.freepik.com/free-photo/interior-design-with-photoframes-couch_23-2149385435.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling" />
+                            <a class="card-heading" style="color:#8e44ad;" href="https://www.ikea.com" target="_blank">Ikea</a>
+                            <p class="card-para" style="color:#22223b;">Elevate your space with our exquisite collection.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(135deg, #f5f3f5 0%, #c2c4d4 100%);">
+                            <img src="https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2050.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling" />
+                            <a class="card-heading" style="color:#8e44ad;" href="https://www.croma.com" target="_blank">Croma</a>
+                            <p class="card-para" style="color:#22223b;">Create memories in a beautifully furnished home.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(135deg, #f5f3f5 0%, #c2c4d4 100%);">
+                            <img src="https://plus.unsplash.com/premium_photo-1680300960805-e76bb338d59e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZSUyMG5lZWRzJTIwYW5kJTIwZnVybml0dXJlfGVufDB8fDB8fHww" class="image-styling" />
+                            <a class="card-heading" style="color:#8e44ad;" href="https://www.overstock.com" target="_blank">Overstock</a>
+                            <p class="card-para" style="color:#22223b;">Get all your Home needs at reasonable prices!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(135deg, #f5f3f5 0%, #c2c4d4 100%);">
+                            <img src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling" />
+                            <a class="card-heading" style="color:#8e44ad;" href="https://www.wayfair.com" target="_blank">Wayfair</a>
+                            <p class="card-para" style="color:#22223b;">Embrace the beauty of simplicity.</p>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-secondary" onclick="display('sectionnavigation')">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfour">
+        <div class="foodandgrocery-section pt-4 pb-4" style="margin-top:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading" style="color:#388e3c;">Fresh & Flavorful:<br /> Your Go-To Source for Food and Essentials!</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(180deg, #ff9a9e 0%, #fad0c4 100%);">
+                            <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18813.jpg?ga=GA1.1.617915946.1725001076&semt=ais_hybrid" class="image-styling mb-2" />
+                            <a class="card-heading" href="https://www.swiggy.com" target="_blank" style="color:#f39c12;">Swiggy</a>
+                            <p class="card-para mt-1" style="color:#22223b;">Satisfy your cravings, offering a wide range of food delivery options from local restaurants right to your home.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(180deg, #ff9a9e 0%, #fad0c4 100%);">
+                            <img src="https://images.unsplash.com/photo-1487790343276-2fe56a7d9439?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZvb2R8ZW58MHx8MHx8fDA%3D" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#f39c12;" href="https://www.zomato.com" target="_blank">Zomato</a>
+                            <p class="card-para mt-1" style="color:#22223b;">Discover new dining experiences, where you can explore restaurant menus, reviews, and convenient food delivery services.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(180deg, #ff9a9e 0%, #fad0c4 100%);">
+                            <img src="https://media.istockphoto.com/id/1412723839/photo/online-buying-and-delivery-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=XjdIFyiQWJSbUKp7ZHFGPsINTDR67yQvgq5ICyXZY54=" class="image-styling mb-2" />
+                            <a class="card-heading mt-2" href="https://www.bigbasket.com" style="color:#f39c12;">Bigbasket</a>
+                            <p class="card-para mt-2" style="color:#22223b;">Get fresh groceries delivered to your home while providing a comprehensive selection of everyday essentials.</p>
+                            <div>
+                                <a href="" class="bb-button" data-toggle="modal" data-target="#exampleModal">BB Fresh
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                    </svg>
+                                </a>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title-heading" id="exampleModalLabel">Bringing Freshness to Your Home in Minutes</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="healthy-food-section pt-3 pb-3">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-5">
+                                                                <div class="text-center">
+                                                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png" class="healthy-food-section-img mt-md-2" />
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 col-md-7">
+                                                                <h1 class="healthy-food-section-heading">
+                                                                    Fresh, Healthy, Organic Fruits and Vegetables
+                                                                </h1>
+                                                                <p class="healthy-food-section-description">
+                                                                    Say no to harmful chemicals and go fully organic with our range of
+                                                                    fresh fruits and veggies. Pamper your body and your senses with
+                                                                    the true and unadulterated gifts from mother nature.
+                                                                </p>
+                                                                <a class="custom-button" href="https://www.bigbasket.com/pc/fruits-vegetables/fresh-vegetables/" target="_blank">Order Now</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(180deg, #ff9a9e 0%, #fad0c4 100%);">
+                            <img src="https://media.istockphoto.com/id/1412723839/photo/online-buying-and-delivery-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=XjdIFyiQWJSbUKp7ZHFGPsINTDR67yQvgq5ICyXZY54=" class="image-styling mb-2" />
+                            <a class="card-heading mt-2" href="https://www.fnp.com" target="_blank" style="color:#f39c12;">FernsNPetals</a>
+                            <p class="card-para mt-2" style="color:#22223b;">Transform ordinary moments into extraordinary memories with our unique gifts.</p>
+                            <div>
+                                <a href="" class="bb-button" data-toggle="modal" data-target="#fernsPetalsModal">
+                                    Fnp
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="14px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                    </svg>
+                                </a>
+                                <div class="modal fade" id="fernsPetalsModal" tabindex="-1" aria-labelledby="fernsPetalsModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="fernsPetalsModalLabel">Ferns and Petals Section</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h1>
+                                                    <a class="custom-button" href="https://www.fnp.com/chocolate-cakes-lp?promo=redirectionsearch" target="_blank">Order Now</a>
+                                                </h1>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background:linear-gradient(180deg, #ff9a9e 0%, #fad0c4 100%);">
+                            <img src="https://media.istockphoto.com/id/1328476408/photo/young-woman-delivering-groceries-to-senior-woman.webp?a=1&b=1&s=612x612&w=0&k=20&c=34nHambCLIzAYqwIhfxMlnl2leBwPHA1mwHNTQinRIw=" class="image-styling mb-2" />
+                            <a class="card-heading mt-2" style="color:#f39c12;" href="https://www.zepto.com" target="_blank">Zepto</a>
+                            <p class="card-para mt-1" style="color:#22223b;">Experience lightning-fast grocery delivery at your doorstep in just 10 minutes.</p>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-secondary" onclick="display('sectionnavigation')">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfive">
+        <div class="travel-section pt-4 pb-4" style="margin-top:60px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="section-heading" style="color:#00796b;">Travel Tales: <br />Explore, Experience and Enjoy</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2);">
+                            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#4e342e;" href="https://www.makemytrip.com" target="_blank">MakeMyTrip</a>
+                            <p class="card-para" style="color:#ffb74d;">Your Ultimate Guide to Unforgettable Destinations and Thrilling Adventures!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2);">
+                            <img src="https://plus.unsplash.com/premium_photo-1680102981867-ce3e1d734c37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsJTIwdHJhaW58ZW58MHx8MHx8fDA%3D" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#4e342e;" href="https://www.railyatri.in" target="_blank">Railyatri</a>
+                            <p class="card-para" style="color:#ffb74d;">Your trusted companion for train travel in India, offering seamless bookings.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2);">
+                            <img src="https://plus.unsplash.com/premium_photo-1680102981867-ce3e1d734c37?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsJTIwdHJhaW58ZW58MHx8MHx8fDA%3D" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#4e342e;" href="www.irctc.co.in" target="_blank">IRCTC</a>
+                            <p class="card-para" style="color:#ffb74d;">Your ultimate guide to train journeys in India, ensuring effortless travel planning.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2);">
+                            <img src="https://media.istockphoto.com/id/1061230546/photo/young-handsome-man-relaxing-in-seat-of-tour-bus.webp?a=1&b=1&s=612x612&w=0&k=20&c=5hytQS5jC0z6gARzFHf9mpUHvsJW3UeofN2Ea1qVyE4=" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#4e342e;" href="https://www.redbus.com" target="_blank">RedBus</a>
+                            <p class="card-para" style="color:#ffb74d;">The easiest way to book bus tickets across India, ensuring comfort at your fingertips.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2);">
+                            <img src="https://media.istockphoto.com/id/1061230546/photo/young-handsome-man-relaxing-in-seat-of-tour-bus.webp?a=1&b=1&s=612x612&w=0&k=20&c=5hytQS5jC0z6gARzFHf9mpUHvsJW3UeofN2Ea1qVyE4=" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#4e342e;" href="https://www.abhibus.com" target="_blank">Abhibus</a>
+                            <p class="card-para" style="color:#ffb74d;">Your hassle-free gateway to bus travel in India, bringing comfort to every journey.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="card-container mt-2 p-3 mb-3 shadow" style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2);">
+                            <img src="https://media.istockphoto.com/id/467031976/photo/jagannath-temple-in-puri-orissa-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=BTeMrZWZuCZo_QyNAxvb-bMtFeQDq09lWDFLO_wFWSo=" class="image-styling mb-2" />
+                            <a class="card-heading" style="color:#4e342e;" href="https://www.yatra.com" target="_blank">Yatra</a>
+                            <p class="card-para" style="color:#ffb74d;">Discover spiritual journeys offering pilgrimages and divine experiences at sacred destinations.</p>
+                        </div>
+                        <div class="text-right">
+                            <button class="btn btn-secondary" onclick="display('sectionnavigation')">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
